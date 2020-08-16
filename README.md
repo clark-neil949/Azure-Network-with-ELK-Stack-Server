@@ -99,7 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker_ps.png](/Images/docker_ps.png)
+![docker_ps.png](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/docker_ps.PNG)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -117,13 +117,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 You should see the following screen on Kibana under Module Status, Check Data, Verify Incoming Data if the Filebeat installation was successful:
 
-![Filebeat data recieved](/Images/Day2DataRecievedFromModule.png)
+![Filebeat data recieved](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/Day2DataRecievedFromModule.PNG)
 
-![Filebeat screen](/Images/Day2Filebeat.png)
+![Filebeat screen](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/Day2Filebeat.PNG)
 
 You should see the following screen on Kibana under Docker Metrics, Module Status, Check Data, Verify Incoming Data if the Metricbeat installation was successful:
 
-![Metricbeat screen](/Images/Metricbeat.png)
+![Metricbeat screen](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/Metricbeat.png)
 
 SSH into the control node and follow the steps below:
 - Copy the _yaml_ file to _host VM_.
