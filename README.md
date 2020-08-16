@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![Topology](Images/Azure_Network_Diagram.png)
+![Topology](/Images/Azure_Network_Diagram.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _yaml_ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -99,7 +99,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![docker_ps.png](Images/docker_ps.png)
+![docker_ps.png](/Images/docker_ps.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -117,13 +117,13 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 You should see the following screen on Kibana under Module Status, Check Data, Verify Incoming Data if the Filebeat installation was successful:
 
-![Filebeat data recieved](Images/Day2DataRecievedFromModule.png)
+![Filebeat data recieved](/Images/Day2DataRecievedFromModule.png)
 
-![Filebeat screen](Images/Day2Filebeat.png)
+![Filebeat screen](/Images/Day2Filebeat.png)
 
 You should see the following screen on Kibana under Docker Metrics, Module Status, Check Data, Verify Incoming Data if the Metricbeat installation was successful:
 
-![Metricbeat screen](Images/Metricbeat.png)
+![Metricbeat screen](/Images/Metricbeat.png)
 
 SSH into the control node and follow the steps below:
 - Copy the _yaml_ file to _host VM_.
