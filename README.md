@@ -115,6 +115,11 @@ These Beats allow us to collect the following information from each machine:
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
+SSH into the control node and follow the steps below:
+- Copy the _yaml_ file to _host VM_.
+- Update the _yaml_ file to include...
+- Run the playbook, and navigate to _host VM_ to check that the installation worked as expected.
+
 You should see the following screen on Kibana under Module Status, Check Data, Verify Incoming Data if the Filebeat installation was successful:
 
 ![Filebeat data recieved](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/Day2DataRecievedFromModule.PNG)
@@ -125,15 +130,10 @@ You should see the following screen on Kibana under Docker Metrics, Module Statu
 
 ![Metricbeat screen](https://github.com/clark-neil949/Azure-Network-with-ELK-Stack-Server/blob/master/Images/Metricbeat.png)
 
-SSH into the control node and follow the steps below:
-- Copy the _yaml_ file to _host VM_.
-- Update the _yaml_ file to include...
-- Run the playbook, and navigate to _host VM_ to check that the installation worked as expected.
-
 _Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it? The yaml(.yml) file is the playbook. You copy it onto the host VM._
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? You must update the hosts file. In the heading of the yaml file next to host, specifify which machine you want to perform the install using the category you listed the machine on in the hosts file._
-- _Which URL do you navigate to in order to check that the ELK server is running? http://40.76.11.186:5601_
+- Which file is the playbook? Where do you copy it? _The yaml(.yml) file is the playbook. You copy it onto the host VM._
+- Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on? _You must update the hosts file. In the heading of the yaml file next to host, specifify which machine you want to perform the install using the category you listed the machine on in the hosts file._
+- Which URL do you navigate to in order to check that the ELK server is running? _http://40.76.11.186:5601_
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
 
