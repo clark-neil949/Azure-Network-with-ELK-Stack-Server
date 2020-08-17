@@ -83,7 +83,7 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box | Yes                 | 10.0.0.5 10.0.0.6    |
 | Web-1    | No                  |                      |
 | Web-2    | No                  |                      |
-| ELK      | No                  |                      |
+| ELK      | Yes                 |                      |
 
 ### Elk Configuration
 
