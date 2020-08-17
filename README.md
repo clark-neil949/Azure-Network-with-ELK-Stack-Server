@@ -74,16 +74,16 @@ Only the _local workstation_ machine can accept connections from the Internet. A
 
 Machines within the network can only be accessed by _jumpbox_.
 - _Which machine did you allow to access your ELK VM? Jumpbox and two web servers._
-- _What was its IP address? 10.0.10.4, 10.0.0.5, 10.0.0.6_
+- _What was its IP address? 10.0.0.4 (Jumpbox), 10.0.0.5(Web-1), 10.0.0.6(Web-2)_
 
 A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes                 | 10.0.0.5 10.0.0.6    |
-| Web-1    | No                  |                      |
-| Web-2    | No                  |                      |
-| ELK      | Yes                 |                      |
+| Jump Box | Yes                 | 50.26.190.41         |
+| Web-1    | No                  | 10.0.0.4             |
+| Web-2    | No                  | 10.0.0.4             |
+| ELK      | No                  | 50.26.190.41         |
 
 ### Elk Configuration
 
