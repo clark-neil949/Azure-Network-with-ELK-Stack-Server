@@ -142,10 +142,9 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
  - curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat > filebeat-configuration.yml
  - curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f5e12f73/metricbeat > metricbeat-config.yml
  - sudo su
- - Docker start peaceful_panini
- - Docker attach peaceful_panini
- - nano filebeat-configuration.yml
- - nano metricbeat-config.yml
+ - Docker start beatiful_curie
+ - Docker attach beatiful_curie
+ - nano filebeat_and_metricbeat-configuration.yml
  - nano install-elk.yml
  - nano filebeat.yml
  - nano metricbeat.yml
