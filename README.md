@@ -144,10 +144,9 @@ _As a **Bonus**, provide the specific commands the user will need to run to down
  - sudo su
  - Docker start beatiful_curie
  - Docker attach beatiful_curie
- - nano filebeat_and_metricbeat-configuration.yml
+ - nano filebeat-configuration.yml
+ - nano metricbeat-config.yml
  - nano install-elk.yml
- - nano filebeat.yml
- - nano metricbeat.yml
+ - nano filebeat_and_metricbeat.yml
  - ansible-playbook install-elk.yml
- - ansible-playbook filebeat.yml
- - ansible-playbook metricbeat.yml
+ - ansible-playbook filebeat_and_metricbeat.yml
